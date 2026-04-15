@@ -1,0 +1,25 @@
+[0.070s] Invoking command in '/home/ishaani/ros2_ws/build/night_patrol_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishaani/ros2_ws/install/patrol_detection:/home/ishaani/turtlebot3_ws/install/turtlebot3_teleop:/home/ishaani/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/ishaani/ros2_ws/build/night_patrol_world -- -j8 -l8
+[0.747s] Invoked command in '/home/ishaani/ros2_ws/build/night_patrol_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishaani/ros2_ws/install/patrol_detection:/home/ishaani/turtlebot3_ws/install/turtlebot3_teleop:/home/ishaani/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/ishaani/ros2_ws/build/night_patrol_world -- -j8 -l8
+[0.751s] Invoking command in '/home/ishaani/ros2_ws/build/night_patrol_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishaani/ros2_ws/install/patrol_detection:/home/ishaani/turtlebot3_ws/install/turtlebot3_teleop:/home/ishaani/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --install /home/ishaani/ros2_ws/build/night_patrol_world
+[0.777s] -- Install configuration: ""
+[0.784s] -- Up-to-date: /home/ishaani/ros2_ws/install/night_patrol_world/share/night_patrol_world/worlds
+[0.785s] -- Up-to-date: /home/ishaani/ros2_ws/install/night_patrol_world/share/night_patrol_world/worlds/city_world.sdf
+[0.785s] -- Up-to-date: /home/ishaani/ros2_ws/install/night_patrol_world/share/night_patrol_world/launch
+[0.785s] -- Up-to-date: /home/ishaani/ros2_ws/install/night_patrol_world/share/night_patrol_world/launch/city_world.launch.py
+[0.785s] -- Up-to-date: /home/ishaani/ros2_ws/install/night_patrol_world/share/night_patrol_world/models
+[0.786s] -- Up-to-date: /home/ishaani/ros2_ws/install/night_patrol_world/share/ament_index/resource_index/package_run_dependencies/night_patrol_world
+[0.786s] -- Up-to-date: /home/ishaani/ros2_ws/install/night_patrol_world/share/ament_index/resource_index/parent_prefix_path/night_patrol_world
+[0.786s] -- Up-to-date: /home/ishaani/ros2_ws/install/night_patrol_world/share/night_patrol_world/environment/ament_prefix_path.sh
+[0.786s] -- Up-to-date: /home/ishaani/ros2_ws/install/night_patrol_world/share/night_patrol_world/environment/ament_prefix_path.dsv
+[0.786s] -- Up-to-date: /home/ishaani/ros2_ws/install/night_patrol_world/share/night_patrol_world/environment/path.sh
+[0.791s] -- Up-to-date: /home/ishaani/ros2_ws/install/night_patrol_world/share/night_patrol_world/environment/path.dsv
+[0.792s] -- Up-to-date: /home/ishaani/ros2_ws/install/night_patrol_world/share/night_patrol_world/local_setup.bash
+[0.792s] -- Up-to-date: /home/ishaani/ros2_ws/install/night_patrol_world/share/night_patrol_world/local_setup.sh
+[0.795s] -- Up-to-date: /home/ishaani/ros2_ws/install/night_patrol_world/share/night_patrol_world/local_setup.zsh
+[0.795s] -- Up-to-date: /home/ishaani/ros2_ws/install/night_patrol_world/share/night_patrol_world/local_setup.dsv
+[0.795s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_world/share/night_patrol_world/package.dsv
+[0.796s] -- Up-to-date: /home/ishaani/ros2_ws/install/night_patrol_world/share/ament_index/resource_index/packages/night_patrol_world
+[0.796s] -- Up-to-date: /home/ishaani/ros2_ws/install/night_patrol_world/share/night_patrol_world/cmake/night_patrol_worldConfig.cmake
+[0.796s] -- Up-to-date: /home/ishaani/ros2_ws/install/night_patrol_world/share/night_patrol_world/cmake/night_patrol_worldConfig-version.cmake
+[0.796s] -- Up-to-date: /home/ishaani/ros2_ws/install/night_patrol_world/share/night_patrol_world/package.xml
+[0.844s] Invoked command in '/home/ishaani/ros2_ws/build/night_patrol_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishaani/ros2_ws/install/patrol_detection:/home/ishaani/turtlebot3_ws/install/turtlebot3_teleop:/home/ishaani/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --install /home/ishaani/ros2_ws/build/night_patrol_world

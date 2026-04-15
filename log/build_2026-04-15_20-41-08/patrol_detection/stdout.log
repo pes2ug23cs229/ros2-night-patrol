@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/patrol_detection/patrol_detection.egg-info
+writing ../../build/patrol_detection/patrol_detection.egg-info/PKG-INFO
+writing dependency_links to ../../build/patrol_detection/patrol_detection.egg-info/dependency_links.txt
+writing entry points to ../../build/patrol_detection/patrol_detection.egg-info/entry_points.txt
+writing requirements to ../../build/patrol_detection/patrol_detection.egg-info/requires.txt
+writing top-level names to ../../build/patrol_detection/patrol_detection.egg-info/top_level.txt
+writing manifest file '../../build/patrol_detection/patrol_detection.egg-info/SOURCES.txt'
+reading manifest file '../../build/patrol_detection/patrol_detection.egg-info/SOURCES.txt'
+writing manifest file '../../build/patrol_detection/patrol_detection.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ishaani/ros2_ws/build/patrol_detection/build
+creating /home/ishaani/ros2_ws/build/patrol_detection/build/lib
+creating /home/ishaani/ros2_ws/build/patrol_detection/build/lib/patrol_detection
+copying patrol_detection/detection_node.py -> /home/ishaani/ros2_ws/build/patrol_detection/build/lib/patrol_detection
+copying patrol_detection/__init__.py -> /home/ishaani/ros2_ws/build/patrol_detection/build/lib/patrol_detection
+running install
+running install_lib
+creating /home/ishaani/ros2_ws/install/patrol_detection/lib/python3.12/site-packages/patrol_detection
+copying /home/ishaani/ros2_ws/build/patrol_detection/build/lib/patrol_detection/detection_node.py -> /home/ishaani/ros2_ws/install/patrol_detection/lib/python3.12/site-packages/patrol_detection
+copying /home/ishaani/ros2_ws/build/patrol_detection/build/lib/patrol_detection/__init__.py -> /home/ishaani/ros2_ws/install/patrol_detection/lib/python3.12/site-packages/patrol_detection
+byte-compiling /home/ishaani/ros2_ws/install/patrol_detection/lib/python3.12/site-packages/patrol_detection/detection_node.py to detection_node.cpython-312.pyc
+byte-compiling /home/ishaani/ros2_ws/install/patrol_detection/lib/python3.12/site-packages/patrol_detection/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/ishaani/ros2_ws/install/patrol_detection/share/ament_index
+creating /home/ishaani/ros2_ws/install/patrol_detection/share/ament_index/resource_index
+creating /home/ishaani/ros2_ws/install/patrol_detection/share/ament_index/resource_index/packages
+copying resource/patrol_detection -> /home/ishaani/ros2_ws/install/patrol_detection/share/ament_index/resource_index/packages
+copying package.xml -> /home/ishaani/ros2_ws/install/patrol_detection/share/patrol_detection
+running install_egg_info
+Copying ../../build/patrol_detection/patrol_detection.egg-info to /home/ishaani/ros2_ws/install/patrol_detection/lib/python3.12/site-packages/patrol_detection-0.0.0-py3.12.egg-info
+running install_scripts
+Installing detection_node script to /home/ishaani/ros2_ws/install/patrol_detection/lib/patrol_detection
+writing list of installed files to '/home/ishaani/ros2_ws/build/patrol_detection/install.log'

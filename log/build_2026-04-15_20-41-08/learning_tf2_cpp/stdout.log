@@ -1,0 +1,68 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found tf2: 0.36.16 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+-- Configuring done (2.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ishaani/ros2_ws/build/learning_tf2_cpp
+[ 12%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/turtle_tf2_broadcaster.dir/src/turtle_tf2_broadcaster.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/static_turtle_tf2_broadcaster.dir/src/static_turtle_tf2_broadcaster.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/fixed_frame_tf2_broadcaster.dir/src/fixed_frame_tf2_broadcaster.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable static_turtle_tf2_broadcaster[0m
+[ 75%] [32m[1mLinking CXX executable fixed_frame_tf2_broadcaster[0m
+[ 75%] Built target static_turtle_tf2_broadcaster
+[ 75%] Built target fixed_frame_tf2_broadcaster
+[ 87%] [32m[1mLinking CXX executable turtle_tf2_listener[0m
+[ 87%] Built target turtle_tf2_listener
+[100%] [32m[1mLinking CXX executable turtle_tf2_broadcaster[0m
+[100%] Built target turtle_tf2_broadcaster
+-- Install configuration: ""
+-- Installing: /home/ishaani/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster
+-- Set non-toolchain portion of runtime path of "/home/ishaani/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster" to ""
+-- Installing: /home/ishaani/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster
+-- Set non-toolchain portion of runtime path of "/home/ishaani/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster" to ""
+-- Installing: /home/ishaani/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener
+-- Set non-toolchain portion of runtime path of "/home/ishaani/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener" to ""
+-- Installing: /home/ishaani/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/fixed_frame_tf2_broadcaster
+-- Set non-toolchain portion of runtime path of "/home/ishaani/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/fixed_frame_tf2_broadcaster" to ""
+-- Installing: /home/ishaani/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch
+-- Installing: /home/ishaani/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_fixed_frame_demo_launch.xml
+-- Installing: /home/ishaani/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_demo_launch.xml
+-- Installing: /home/ishaani/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+-- Installing: /home/ishaani/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+-- Installing: /home/ishaani/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/ishaani/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/ishaani/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+-- Installing: /home/ishaani/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+-- Installing: /home/ishaani/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+-- Installing: /home/ishaani/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+-- Installing: /home/ishaani/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+-- Installing: /home/ishaani/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+-- Installing: /home/ishaani/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+-- Installing: /home/ishaani/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+-- Installing: /home/ishaani/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+-- Installing: /home/ishaani/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+-- Installing: /home/ishaani/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml

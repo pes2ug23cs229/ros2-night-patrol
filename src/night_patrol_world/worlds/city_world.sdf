@@ -1,0 +1,270 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+  <world name="night_patrol_city">
+
+    <!-- Physics -->citywor
+    <physics name="default_physics" default="true" type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+
+    <!-- Plugins required for Gazebo Harmonic -->
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"/>
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"/>
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands"/>
+    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+
+    <!-- NIGHT SKY: Dark ambient, no sun, directional light off -->
+    <scene>
+      <ambient>0.05 0.05 0.1 1</ambient>
+      <background>0.0 0.0 0.05 1</background>
+      <shadows>true</shadows>
+    </scene>
+
+    <!-- Ground plane -->
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry><plane><normal>0 0 1</normal><size>100 100</size></plane></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><plane><normal>0 0 1</normal><size>100 100</size></plane></geometry>
+          <material>
+            <ambient>0.2 0.2 0.2 1</ambient>
+            <diffuse>0.3 0.3 0.3 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- ROAD 1: Horizontal strip -->
+    <model name="road_h1">
+      <static>true</static>
+      <pose>0 0 0.01 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>80 8 0.01</size></box></geometry>
+          <material><ambient>0.15 0.15 0.15 1</ambient><diffuse>0.2 0.2 0.2 1</diffuse></material>
+        </visual>
+        <collision name="collision">
+          <geometry><box><size>80 8 0.01</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- ROAD 2: Vertical strip (crossroad) -->
+    <model name="road_v1">
+      <static>true</static>
+      <pose>0 0 0.01 0 0 1.5708</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>80 8 0.01</size></box></geometry>
+          <material><ambient>0.15 0.15 0.15 1</ambient><diffuse>0.2 0.2 0.2 1</diffuse></material>
+        </visual>
+        <collision name="collision">
+          <geometry><box><size>80 8 0.01</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- BUILDING 1 -->
+    <model name="building_1">
+      <static>true</static>
+      <pose>15 15 5 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>10 10 10</size></box></geometry>
+          <material><ambient>0.2 0.2 0.3 1</ambient><diffuse>0.25 0.25 0.35 1</diffuse></material>
+        </visual>
+        <collision name="collision">
+          <geometry><box><size>10 10 10</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- BUILDING 2 -->
+    <model name="building_2">
+      <static>true</static>
+      <pose>-15 15 7 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>10 10 14</size></box></geometry>
+          <material><ambient>0.2 0.2 0.3 1</ambient><diffuse>0.25 0.25 0.35 1</diffuse></material>
+        </visual>
+        <collision name="collision">
+          <geometry><box><size>10 10 14</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- BUILDING 3 -->
+    <model name="building_3">
+      <static>true</static>
+      <pose>15 -15 6 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>10 10 12</size></box></geometry>
+          <material><ambient>0.2 0.2 0.3 1</ambient><diffuse>0.25 0.25 0.35 1</diffuse></material>
+        </visual>
+        <collision name="collision">
+          <geometry><box><size>10 10 12</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- BUILDING 4 -->
+    <model name="building_4">
+      <static>true</static>
+      <pose>-15 -15 4 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>10 10 8</size></box></geometry>
+          <material><ambient>0.2 0.2 0.3 1</ambient><diffuse>0.25 0.25 0.35 1</diffuse></material>
+        </visual>
+        <collision name="collision">
+          <geometry><box><size>10 10 8</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <include>
+  	<uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Apartment</uri>
+  	<pose>20 20 0 0 0 0</pose>
+    </include>
+
+
+    <!-- STREETLIGHT 1 -->
+    <model name="streetlight_1">
+      <static>true</static>
+      <pose>5 4 0 0 0 0</pose>
+      <link name="pole">
+        <visual name="visual">
+          <geometry><cylinder><radius>0.1</radius><length>5</length></cylinder></geometry>
+          <material><ambient>0.4 0.4 0.4 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder><radius>0.1</radius><length>5</length></cylinder></geometry>
+        </collision>
+        <pose>0 0 2.5 0 0 0</pose>
+      </link>
+      <light name="lamp_1" type="point">
+        <pose>0 0 5.2 0 0 0</pose>
+        <diffuse>1 0.9 0.6 1</diffuse>
+        <specular>0.3 0.3 0.2 1</specular>
+        <attenuation>
+          <range>12</range>
+          <constant>0.3</constant>
+          <linear>0.05</linear>
+          <quadratic>0.01</quadratic>
+        </attenuation>
+        <cast_shadows>false</cast_shadows>
+      </light>
+    </model>
+
+    <!-- STREETLIGHT 2 -->
+    <model name="streetlight_2">
+      <static>true</static>
+      <pose>-5 -4 0 0 0 0</pose>
+      <link name="pole">
+        <visual name="visual">
+          <geometry><cylinder><radius>0.1</radius><length>5</length></cylinder></geometry>
+          <material><ambient>0.4 0.4 0.4 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder><radius>0.1</radius><length>5</length></cylinder></geometry>
+        </collision>
+        <pose>0 0 2.5 0 0 0</pose>
+      </link>
+      <light name="lamp_2" type="point">
+        <pose>0 0 5.2 0 0 0</pose>
+        <diffuse>1 0.9 0.6 1</diffuse>
+        <specular>0.3 0.3 0.2 1</specular>
+        <attenuation>
+          <range>12</range>
+          <constant>0.3</constant>
+          <linear>0.05</linear>
+          <quadratic>0.01</quadratic>
+        </attenuation>
+        <cast_shadows>false</cast_shadows>
+      </light>
+    </model>
+
+    <!-- STREETLIGHT 3 -->
+    <model name="streetlight_3">
+      <static>true</static>
+      <pose>5 -20 0 0 0 0</pose>
+      <link name="pole">
+        <visual name="visual">
+          <geometry><cylinder><radius>0.1</radius><length>5</length></cylinder></geometry>
+          <material><ambient>0.4 0.4 0.4 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder><radius>0.1</radius><length>5</length></cylinder></geometry>
+        </collision>
+        <pose>0 0 2.5 0 0 0</pose>
+      </link>
+      <light name="lamp_3" type="point">
+        <pose>0 0 5.2 0 0 0</pose>
+        <diffuse>1 0.9 0.6 1</diffuse>
+        <specular>0.3 0.3 0.2 1</specular>
+        <attenuation>
+          <range>12</range>
+          <constant>0.3</constant>
+          <linear>0.05</linear>
+          <quadratic>0.01</quadratic>
+        </attenuation>
+        <cast_shadows>false</cast_shadows>
+      </light>
+    </model>
+
+    <!-- PARKED CAR (static obstacle) -->
+    <model name="parked_car_1">
+      <static>true</static>
+      <pose>8 3.5 0.4 0 0 0</pose>
+      <link name="body">
+        <visual name="visual">
+          <geometry><box><size>4 2 1.5</size></box></geometry>
+          <material><ambient>0.1 0.1 0.5 1</ambient><diffuse>0.1 0.1 0.6 1</diffuse></material>
+        </visual>
+        <collision name="collision">
+          <geometry><box><size>4 2 1.5</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- PARKED CAR 2 -->
+    <model name="parked_car_2">
+      <static>true</static>
+      <pose>-8 -3.5 0.4 0 0 0</pose>
+      <link name="body">
+        <visual name="visual">
+          <geometry><box><size>4 2 1.5</size></box></geometry>
+          <material><ambient>0.5 0.1 0.1 1</ambient><diffuse>0.6 0.1 0.1 1</diffuse></material>
+        </visual>
+        <collision name="collision">
+          <geometry><box><size>4 2 1.5</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- HUMAN MANNEQUIN (static, acts as person obstacle for detection) -->
+    <model name="person_1">
+      <static>true</static>
+      <pose>12 0.5 0.9 0 0 0</pose>
+      <link name="body">
+        <visual name="visual">
+          <geometry><box><size>0.5 0.3 1.8</size></box></geometry>
+          <material><ambient>0.6 0.4 0.2 1</ambient><diffuse>0.7 0.5 0.3 1</diffuse></material>
+        </visual>
+        <collision name="collision">
+          <geometry><box><size>0.5 0.3 1.8</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+  </world>
+</sdf>
+

@@ -1,0 +1,37 @@
+[0.956s] Invoking command in '/home/ishaani/ros2_ws/src/patrol_detection': PYTHONPATH=/home/ishaani/ros2_ws/build/patrol_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ishaani/ros2_ws/install/patrol_detection/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/patrol_detection build --build-base /home/ishaani/ros2_ws/build/patrol_detection/build install --record /home/ishaani/ros2_ws/build/patrol_detection/install.log --single-version-externally-managed install_data
+[1.285s] running egg_info
+[1.285s] creating ../../build/patrol_detection/patrol_detection.egg-info
+[1.309s] writing ../../build/patrol_detection/patrol_detection.egg-info/PKG-INFO
+[1.310s] writing dependency_links to ../../build/patrol_detection/patrol_detection.egg-info/dependency_links.txt
+[1.310s] writing entry points to ../../build/patrol_detection/patrol_detection.egg-info/entry_points.txt
+[1.310s] writing requirements to ../../build/patrol_detection/patrol_detection.egg-info/requires.txt
+[1.311s] writing top-level names to ../../build/patrol_detection/patrol_detection.egg-info/top_level.txt
+[1.311s] writing manifest file '../../build/patrol_detection/patrol_detection.egg-info/SOURCES.txt'
+[1.357s] reading manifest file '../../build/patrol_detection/patrol_detection.egg-info/SOURCES.txt'
+[1.357s] writing manifest file '../../build/patrol_detection/patrol_detection.egg-info/SOURCES.txt'
+[1.358s] running build
+[1.358s] running build_py
+[1.358s] creating /home/ishaani/ros2_ws/build/patrol_detection/build
+[1.358s] creating /home/ishaani/ros2_ws/build/patrol_detection/build/lib
+[1.358s] creating /home/ishaani/ros2_ws/build/patrol_detection/build/lib/patrol_detection
+[1.359s] copying patrol_detection/detection_node.py -> /home/ishaani/ros2_ws/build/patrol_detection/build/lib/patrol_detection
+[1.359s] copying patrol_detection/__init__.py -> /home/ishaani/ros2_ws/build/patrol_detection/build/lib/patrol_detection
+[1.359s] running install
+[1.366s] running install_lib
+[1.392s] creating /home/ishaani/ros2_ws/install/patrol_detection/lib/python3.12/site-packages/patrol_detection
+[1.392s] copying /home/ishaani/ros2_ws/build/patrol_detection/build/lib/patrol_detection/detection_node.py -> /home/ishaani/ros2_ws/install/patrol_detection/lib/python3.12/site-packages/patrol_detection
+[1.393s] copying /home/ishaani/ros2_ws/build/patrol_detection/build/lib/patrol_detection/__init__.py -> /home/ishaani/ros2_ws/install/patrol_detection/lib/python3.12/site-packages/patrol_detection
+[1.393s] byte-compiling /home/ishaani/ros2_ws/install/patrol_detection/lib/python3.12/site-packages/patrol_detection/detection_node.py to detection_node.cpython-312.pyc
+[1.394s] byte-compiling /home/ishaani/ros2_ws/install/patrol_detection/lib/python3.12/site-packages/patrol_detection/__init__.py to __init__.cpython-312.pyc
+[1.394s] running install_data
+[1.394s] creating /home/ishaani/ros2_ws/install/patrol_detection/share/ament_index
+[1.395s] creating /home/ishaani/ros2_ws/install/patrol_detection/share/ament_index/resource_index
+[1.395s] creating /home/ishaani/ros2_ws/install/patrol_detection/share/ament_index/resource_index/packages
+[1.395s] copying resource/patrol_detection -> /home/ishaani/ros2_ws/install/patrol_detection/share/ament_index/resource_index/packages
+[1.395s] copying package.xml -> /home/ishaani/ros2_ws/install/patrol_detection/share/patrol_detection
+[1.395s] running install_egg_info
+[1.417s] Copying ../../build/patrol_detection/patrol_detection.egg-info to /home/ishaani/ros2_ws/install/patrol_detection/lib/python3.12/site-packages/patrol_detection-0.0.0-py3.12.egg-info
+[1.418s] running install_scripts
+[1.592s] Installing detection_node script to /home/ishaani/ros2_ws/install/patrol_detection/lib/patrol_detection
+[1.593s] writing list of installed files to '/home/ishaani/ros2_ws/build/patrol_detection/install.log'
+[1.638s] Invoked command in '/home/ishaani/ros2_ws/src/patrol_detection' returned '0': PYTHONPATH=/home/ishaani/ros2_ws/build/patrol_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ishaani/ros2_ws/install/patrol_detection/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/patrol_detection build --build-base /home/ishaani/ros2_ws/build/patrol_detection/build install --record /home/ishaani/ros2_ws/build/patrol_detection/install.log --single-version-externally-managed install_data

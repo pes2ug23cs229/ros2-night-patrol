@@ -1,0 +1,71 @@
+[0.025s] Invoking command in '/home/ishaani/ros2_ws/build/night_patrol_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishaani/ros2_ws/install/patrol_detection:/home/ishaani/turtlebot3_ws/install/turtlebot3_teleop:/home/ishaani/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake /home/ishaani/ros2_ws/src/night_patrol_robot -DCMAKE_INSTALL_PREFIX=/home/ishaani/ros2_ws/install/night_patrol_robot
+[0.126s] -- The C compiler identification is GNU 13.3.0
+[0.528s] -- The CXX compiler identification is GNU 13.3.0
+[0.923s] -- Detecting C compiler ABI info
+[1.127s] -- Detecting C compiler ABI info - done
+[1.135s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.135s] -- Detecting C compile features
+[1.136s] -- Detecting C compile features - done
+[1.228s] -- Detecting CXX compiler ABI info
+[1.489s] -- Detecting CXX compiler ABI info - done
+[1.502s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.502s] -- Detecting CXX compile features
+[1.503s] -- Detecting CXX compile features - done
+[1.511s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.703s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.038s] -- Configuring done (2.0s)
+[2.043s] -- Generating done (0.0s)
+[2.045s] -- Build files have been written to: /home/ishaani/ros2_ws/build/night_patrol_robot
+[2.049s] Invoked command in '/home/ishaani/ros2_ws/build/night_patrol_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishaani/ros2_ws/install/patrol_detection:/home/ishaani/turtlebot3_ws/install/turtlebot3_teleop:/home/ishaani/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake /home/ishaani/ros2_ws/src/night_patrol_robot -DCMAKE_INSTALL_PREFIX=/home/ishaani/ros2_ws/install/night_patrol_robot
+[2.050s] Invoking command in '/home/ishaani/ros2_ws/build/night_patrol_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishaani/ros2_ws/install/patrol_detection:/home/ishaani/turtlebot3_ws/install/turtlebot3_teleop:/home/ishaani/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/ishaani/ros2_ws/build/night_patrol_robot -- -j8 -l8
+[2.105s] Built target ament_cmake_python_copy_night_patrol_robot
+[2.365s] running egg_info
+[2.367s] creating night_patrol_robot.egg-info
+[2.386s] writing night_patrol_robot.egg-info/PKG-INFO
+[2.386s] writing dependency_links to night_patrol_robot.egg-info/dependency_links.txt
+[2.386s] writing top-level names to night_patrol_robot.egg-info/top_level.txt
+[2.387s] writing manifest file 'night_patrol_robot.egg-info/SOURCES.txt'
+[2.441s] reading manifest file 'night_patrol_robot.egg-info/SOURCES.txt'
+[2.442s] writing manifest file 'night_patrol_robot.egg-info/SOURCES.txt'
+[2.475s] Built target ament_cmake_python_build_night_patrol_robot_egg
+[2.485s] Invoked command in '/home/ishaani/ros2_ws/build/night_patrol_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishaani/ros2_ws/install/patrol_detection:/home/ishaani/turtlebot3_ws/install/turtlebot3_teleop:/home/ishaani/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/ishaani/ros2_ws/build/night_patrol_robot -- -j8 -l8
+[2.487s] Invoking command in '/home/ishaani/ros2_ws/build/night_patrol_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishaani/ros2_ws/install/patrol_detection:/home/ishaani/turtlebot3_ws/install/turtlebot3_teleop:/home/ishaani/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --install /home/ishaani/ros2_ws/build/night_patrol_robot
+[2.496s] -- Install configuration: ""
+[2.497s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/share/night_patrol_robot/environment/pythonpath.sh
+[2.497s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/share/night_patrol_robot/environment/pythonpath.dsv
+[2.498s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/lib/python3.12/site-packages/night_patrol_robot-0.1.0-py3.12.egg-info
+[2.498s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/lib/python3.12/site-packages/night_patrol_robot-0.1.0-py3.12.egg-info/PKG-INFO
+[2.499s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/lib/python3.12/site-packages/night_patrol_robot-0.1.0-py3.12.egg-info/SOURCES.txt
+[2.500s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/lib/python3.12/site-packages/night_patrol_robot-0.1.0-py3.12.egg-info/top_level.txt
+[2.500s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/lib/python3.12/site-packages/night_patrol_robot-0.1.0-py3.12.egg-info/dependency_links.txt
+[2.500s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/lib/python3.12/site-packages/night_patrol_robot
+[2.500s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/lib/python3.12/site-packages/night_patrol_robot/__init__.py
+[2.500s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/lib/python3.12/site-packages/night_patrol_robot/patrol_node.py
+[2.537s] Listing '/home/ishaani/ros2_ws/install/night_patrol_robot/lib/python3.12/site-packages/night_patrol_robot'...
+[2.537s] Compiling '/home/ishaani/ros2_ws/install/night_patrol_robot/lib/python3.12/site-packages/night_patrol_robot/__init__.py'...
+[2.537s] Compiling '/home/ishaani/ros2_ws/install/night_patrol_robot/lib/python3.12/site-packages/night_patrol_robot/patrol_node.py'...
+[2.542s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/lib/night_patrol_robot/patrol_node
+[2.542s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/share/night_patrol_robot/launch
+[2.542s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/share/night_patrol_robot/launch/robot_nav.launch.py
+[2.543s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/share/night_patrol_robot/launch/navigation_launch.py
+[2.543s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/share/night_patrol_robot/urdf
+[2.543s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/share/night_patrol_robot/urdf/patrol_robot.urdf.xacro
+[2.543s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/share/night_patrol_robot/config
+[2.543s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/share/night_patrol_robot/config/nav2_params.yaml
+[2.543s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/share/night_patrol_robot/maps
+[2.544s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/share/ament_index/resource_index/package_run_dependencies/night_patrol_robot
+[2.544s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/share/ament_index/resource_index/parent_prefix_path/night_patrol_robot
+[2.545s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/share/night_patrol_robot/environment/ament_prefix_path.sh
+[2.545s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/share/night_patrol_robot/environment/ament_prefix_path.dsv
+[2.545s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/share/night_patrol_robot/environment/path.sh
+[2.545s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/share/night_patrol_robot/environment/path.dsv
+[2.545s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/share/night_patrol_robot/local_setup.bash
+[2.545s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/share/night_patrol_robot/local_setup.sh
+[2.546s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/share/night_patrol_robot/local_setup.zsh
+[2.546s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/share/night_patrol_robot/local_setup.dsv
+[2.546s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/share/night_patrol_robot/package.dsv
+[2.547s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/share/ament_index/resource_index/packages/night_patrol_robot
+[2.547s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/share/night_patrol_robot/cmake/night_patrol_robotConfig.cmake
+[2.547s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/share/night_patrol_robot/cmake/night_patrol_robotConfig-version.cmake
+[2.547s] -- Installing: /home/ishaani/ros2_ws/install/night_patrol_robot/share/night_patrol_robot/package.xml
+[2.548s] Invoked command in '/home/ishaani/ros2_ws/build/night_patrol_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishaani/ros2_ws/install/patrol_detection:/home/ishaani/turtlebot3_ws/install/turtlebot3_teleop:/home/ishaani/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --install /home/ishaani/ros2_ws/build/night_patrol_robot

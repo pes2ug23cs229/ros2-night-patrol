@@ -1,0 +1,11 @@
+/home/ishaani/ros2_ws/build/night_patrol_robot/CMakeFiles/uninstall.dir
+/home/ishaani/ros2_ws/build/night_patrol_robot/CMakeFiles/night_patrol_robot_uninstall.dir
+/home/ishaani/ros2_ws/build/night_patrol_robot/CMakeFiles/ament_cmake_python_copy_night_patrol_robot.dir
+/home/ishaani/ros2_ws/build/night_patrol_robot/CMakeFiles/ament_cmake_python_build_night_patrol_robot_egg.dir
+/home/ishaani/ros2_ws/build/night_patrol_robot/CMakeFiles/test.dir
+/home/ishaani/ros2_ws/build/night_patrol_robot/CMakeFiles/edit_cache.dir
+/home/ishaani/ros2_ws/build/night_patrol_robot/CMakeFiles/rebuild_cache.dir
+/home/ishaani/ros2_ws/build/night_patrol_robot/CMakeFiles/list_install_components.dir
+/home/ishaani/ros2_ws/build/night_patrol_robot/CMakeFiles/install.dir
+/home/ishaani/ros2_ws/build/night_patrol_robot/CMakeFiles/install/local.dir
+/home/ishaani/ros2_ws/build/night_patrol_robot/CMakeFiles/install/strip.dir
