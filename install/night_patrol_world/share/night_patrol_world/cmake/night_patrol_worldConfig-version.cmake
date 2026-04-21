@@ -1,1 +1,0 @@
-/mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_world/ament_cmake_core/night_patrol_worldConfig-version.cmake

@@ -1,9 +1,0 @@
-/mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_world/CMakeFiles/uninstall.dir
-/mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_world/CMakeFiles/night_patrol_world_uninstall.dir
-/mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_world/CMakeFiles/test.dir
-/mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_world/CMakeFiles/edit_cache.dir
-/mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_world/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_world/CMakeFiles/list_install_components.dir
-/mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_world/CMakeFiles/install.dir
-/mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_world/CMakeFiles/install/local.dir
-/mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_world/CMakeFiles/install/strip.dir

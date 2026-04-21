@@ -1,2 +1,0 @@
-/mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/install/night_patrol_world/share/night_patrol_world/worlds/city_world.sdf
-/mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/install/night_patrol_world/share/night_patrol_world/launch/city_world.launch.py
