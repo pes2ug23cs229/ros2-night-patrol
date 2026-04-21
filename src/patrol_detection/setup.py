@@ -25,6 +25,7 @@ setup(
     entry_points={
     	'console_scripts': [
         	'detection_node = patrol_detection.detection_node:main',
+        	'monitoring_node = patrol_detection.monitoring_node:main',
     	],
     },
 )

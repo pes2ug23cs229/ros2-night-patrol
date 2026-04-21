@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ishaani/ros2_ws/src/night_patrol_world
+CMAKE_SOURCE_DIR = /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/src/night_patrol_world
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ishaani/ros2_ws/build/night_patrol_world
+CMAKE_BINARY_DIR = /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_world
 
 # Utility rule file for night_patrol_world_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/night_patrol_world_uninstall.dir/compiler_depend.make
 include CMakeFiles/night_patrol_world_uninstall.dir/progress.make
 
 CMakeFiles/night_patrol_world_uninstall:
-	/usr/bin/cmake -P /home/ishaani/ros2_ws/build/night_patrol_world/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_world/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 night_patrol_world_uninstall: CMakeFiles/night_patrol_world_uninstall
 night_patrol_world_uninstall: CMakeFiles/night_patrol_world_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/night_patrol_world_uninstall.dir/clean:
 .PHONY : CMakeFiles/night_patrol_world_uninstall.dir/clean
 
 CMakeFiles/night_patrol_world_uninstall.dir/depend:
-	cd /home/ishaani/ros2_ws/build/night_patrol_world && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ishaani/ros2_ws/src/night_patrol_world /home/ishaani/ros2_ws/src/night_patrol_world /home/ishaani/ros2_ws/build/night_patrol_world /home/ishaani/ros2_ws/build/night_patrol_world /home/ishaani/ros2_ws/build/night_patrol_world/CMakeFiles/night_patrol_world_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_world && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/src/night_patrol_world /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/src/night_patrol_world /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_world /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_world /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_world/CMakeFiles/night_patrol_world_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/night_patrol_world_uninstall.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ishaani/ros2_ws/src/night_patrol_robot
+CMAKE_SOURCE_DIR = /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/src/night_patrol_robot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ishaani/ros2_ws/build/night_patrol_robot
+CMAKE_BINARY_DIR = /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_robot
 
 # Utility rule file for ament_cmake_python_build_night_patrol_robot_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_night_patrol_robot_egg.dir/compiler_
 include CMakeFiles/ament_cmake_python_build_night_patrol_robot_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_night_patrol_robot_egg:
-	cd /home/ishaani/ros2_ws/build/night_patrol_robot/ament_cmake_python/night_patrol_robot && /usr/bin/python3 setup.py egg_info
+	cd /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_robot/ament_cmake_python/night_patrol_robot && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_night_patrol_robot_egg: CMakeFiles/ament_cmake_python_build_night_patrol_robot_egg
 ament_cmake_python_build_night_patrol_robot_egg: CMakeFiles/ament_cmake_python_build_night_patrol_robot_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_night_patrol_robot_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_night_patrol_robot_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_night_patrol_robot_egg.dir/depend:
-	cd /home/ishaani/ros2_ws/build/night_patrol_robot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ishaani/ros2_ws/src/night_patrol_robot /home/ishaani/ros2_ws/src/night_patrol_robot /home/ishaani/ros2_ws/build/night_patrol_robot /home/ishaani/ros2_ws/build/night_patrol_robot /home/ishaani/ros2_ws/build/night_patrol_robot/CMakeFiles/ament_cmake_python_build_night_patrol_robot_egg.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_robot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/src/night_patrol_robot /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/src/night_patrol_robot /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_robot /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_robot /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_robot/CMakeFiles/ament_cmake_python_build_night_patrol_robot_egg.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ament_cmake_python_build_night_patrol_robot_egg.dir/depend
 

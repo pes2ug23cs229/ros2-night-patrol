@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ishaani/ros2_ws/src/night_patrol_robot
+CMAKE_SOURCE_DIR = /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/src/night_patrol_robot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ishaani/ros2_ws/build/night_patrol_robot
+CMAKE_BINARY_DIR = /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_robot
 
 # Utility rule file for night_patrol_robot_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/night_patrol_robot_uninstall.dir/compiler_depend.make
 include CMakeFiles/night_patrol_robot_uninstall.dir/progress.make
 
 CMakeFiles/night_patrol_robot_uninstall:
-	/usr/bin/cmake -P /home/ishaani/ros2_ws/build/night_patrol_robot/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_robot/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 night_patrol_robot_uninstall: CMakeFiles/night_patrol_robot_uninstall
 night_patrol_robot_uninstall: CMakeFiles/night_patrol_robot_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/night_patrol_robot_uninstall.dir/clean:
 .PHONY : CMakeFiles/night_patrol_robot_uninstall.dir/clean
 
 CMakeFiles/night_patrol_robot_uninstall.dir/depend:
-	cd /home/ishaani/ros2_ws/build/night_patrol_robot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ishaani/ros2_ws/src/night_patrol_robot /home/ishaani/ros2_ws/src/night_patrol_robot /home/ishaani/ros2_ws/build/night_patrol_robot /home/ishaani/ros2_ws/build/night_patrol_robot /home/ishaani/ros2_ws/build/night_patrol_robot/CMakeFiles/night_patrol_robot_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_robot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/src/night_patrol_robot /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/src/night_patrol_robot /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_robot /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_robot /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_robot/CMakeFiles/night_patrol_robot_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/night_patrol_robot_uninstall.dir/depend
 

@@ -20,39 +20,59 @@ def generate_launch_description():
         value_type=str
     )
 
+    # -------------------------
+    # Robot State Publisher
+    # -------------------------
     robot_state_publisher = Node(
         package='robot_state_publisher',
         executable='robot_state_publisher',
-        parameters=[{'robot_description': robot_description, 'use_sim_time': True}],
+        parameters=[{
+            'robot_description': robot_description,
+            'use_sim_time': True
+        }],
         output='screen',
     )
 
+    # -------------------------
+    # 🔥 FIXED SPAWN (CENTER)
+    # -------------------------
     spawn_robot = Node(
         package='ros_gz_sim',
         executable='create',
         arguments=[
             '-name', 'patrol_robot',
             '-topic', 'robot_description',
-            '-x', '0.0', '-y', '0.0', '-z', '0.2'
+            '-x', '0.0',
+            '-y', '0.0',
+            '-z', '0.3'
         ],
         output='screen',
     )
+
+    # -------------------------
+    # 🔥 FIXED BRIDGE
+    # -------------------------
 
     bridge = Node(
         package='ros_gz_bridge',
         executable='parameter_bridge',
         arguments=[
-            '/scan@sensor_msgs/msg/LaserScan[gz.msgs.LaserScan',
-            '/image_raw@sensor_msgs/msg/Image[gz.msgs.Image',
+            '/scan@sensor_msgs/msg/LaserScan@gz.msgs.LaserScan',
+            '/camera/image_raw@sensor_msgs/msg/Image@gz.msgs.Image',
             '/cmd_vel@geometry_msgs/msg/Twist@gz.msgs.Twist',
-            '/odom@nav_msgs/msg/Odometry[gz.msgs.Odometry',
-            '/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock',
-            '/joint_states@sensor_msgs/msg/JointState[gz.msgs.Model',
-            '/tf@tf2_msgs/msg/TFMessage[gz.msgs.Pose_V',
+            '/odom@nav_msgs/msg/Odometry@gz.msgs.Odometry',
+            '/clock@rosgraph_msgs/msg/Clock@gz.msgs.Clock',
+            '/joint_states@sensor_msgs/msg/JointState@gz.msgs.Model',
+            '/tf@tf2_msgs/msg/TFMessage@gz.msgs.Pose_V',
+            '--ros-args', '-p', 'lazy:=false',
         ],
         output='screen',
     )
+    
 
+    # -------------------------
+    # NAV2
+    # -------------------------
     nav2 = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(navigation_launch),
         launch_arguments={
@@ -61,6 +81,9 @@ def generate_launch_description():
         }.items(),
     )
 
+    # -------------------------
+    # PATROL NODE
+    # -------------------------
     patrol_node = Node(
         package='night_patrol_robot',
         executable='patrol_node',
@@ -72,7 +95,5 @@ def generate_launch_description():
     return LaunchDescription([
         robot_state_publisher,
         spawn_robot,
-        bridge,
-        TimerAction(period=3.0, actions=[nav2]),
-        TimerAction(period=8.0, actions=[patrol_node]),
+        patrol_node,
     ])

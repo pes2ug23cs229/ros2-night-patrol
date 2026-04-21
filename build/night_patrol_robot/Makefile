@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ishaani/ros2_ws/src/night_patrol_robot
+CMAKE_SOURCE_DIR = /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/src/night_patrol_robot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ishaani/ros2_ws/build/night_patrol_robot
+CMAKE_BINARY_DIR = /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_robot
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ishaani/ros2_ws/build/night_patrol_robot/CMakeFiles /home/ishaani/ros2_ws/build/night_patrol_robot//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_robot/CMakeFiles /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_robot//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ishaani/ros2_ws/build/night_patrol_robot/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_robot/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -198,17 +198,17 @@ night_patrol_robot_uninstall/fast:
 .PHONY : night_patrol_robot_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_night_patrol_robot
+# Target rules for targets named ament_cmake_python_symlink_night_patrol_robot
 
 # Build rule for target.
-ament_cmake_python_copy_night_patrol_robot: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_night_patrol_robot
-.PHONY : ament_cmake_python_copy_night_patrol_robot
+ament_cmake_python_symlink_night_patrol_robot: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_night_patrol_robot
+.PHONY : ament_cmake_python_symlink_night_patrol_robot
 
 # fast build rule for target.
-ament_cmake_python_copy_night_patrol_robot/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_night_patrol_robot.dir/build.make CMakeFiles/ament_cmake_python_copy_night_patrol_robot.dir/build
-.PHONY : ament_cmake_python_copy_night_patrol_robot/fast
+ament_cmake_python_symlink_night_patrol_robot/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_night_patrol_robot.dir/build.make CMakeFiles/ament_cmake_python_symlink_night_patrol_robot.dir/build
+.PHONY : ament_cmake_python_symlink_night_patrol_robot/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_night_patrol_robot_egg
@@ -237,7 +237,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_night_patrol_robot_egg"
-	@echo "... ament_cmake_python_copy_night_patrol_robot"
+	@echo "... ament_cmake_python_symlink_night_patrol_robot"
 	@echo "... night_patrol_robot_uninstall"
 	@echo "... uninstall"
 .PHONY : help

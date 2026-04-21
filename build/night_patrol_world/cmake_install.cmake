@@ -1,8 +1,8 @@
-# Install script for directory: /home/ishaani/ros2_ws/src/night_patrol_world
+# Install script for directory: /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/src/night_patrol_world
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ishaani/ros2_ws/install/night_patrol_world")
+  set(CMAKE_INSTALL_PREFIX "/mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/install/night_patrol_world")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,69 +44,14 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/night_patrol_world" TYPE DIRECTORY FILES
-    "/home/ishaani/ros2_ws/src/night_patrol_world/worlds"
-    "/home/ishaani/ros2_ws/src/night_patrol_world/launch"
-    "/home/ishaani/ros2_ws/src/night_patrol_world/models"
+    "/mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/src/night_patrol_world/worlds"
+    "/mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/src/night_patrol_world/launch"
+    "/mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/src/night_patrol_world/models"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ishaani/ros2_ws/build/night_patrol_world/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/night_patrol_world")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/ishaani/ros2_ws/build/night_patrol_world/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/night_patrol_world")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/night_patrol_world/environment" TYPE FILE FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/night_patrol_world/environment" TYPE FILE FILES "/home/ishaani/ros2_ws/build/night_patrol_world/ament_cmake_environment_hooks/ament_prefix_path.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/night_patrol_world/environment" TYPE FILE FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/night_patrol_world/environment" TYPE FILE FILES "/home/ishaani/ros2_ws/build/night_patrol_world/ament_cmake_environment_hooks/path.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/night_patrol_world" TYPE FILE FILES "/home/ishaani/ros2_ws/build/night_patrol_world/ament_cmake_environment_hooks/local_setup.bash")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/night_patrol_world" TYPE FILE FILES "/home/ishaani/ros2_ws/build/night_patrol_world/ament_cmake_environment_hooks/local_setup.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/night_patrol_world" TYPE FILE FILES "/home/ishaani/ros2_ws/build/night_patrol_world/ament_cmake_environment_hooks/local_setup.zsh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/night_patrol_world" TYPE FILE FILES "/home/ishaani/ros2_ws/build/night_patrol_world/ament_cmake_environment_hooks/local_setup.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/night_patrol_world" TYPE FILE FILES "/home/ishaani/ros2_ws/build/night_patrol_world/ament_cmake_environment_hooks/package.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/ishaani/ros2_ws/build/night_patrol_world/ament_cmake_index/share/ament_index/resource_index/packages/night_patrol_world")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/night_patrol_world/cmake" TYPE FILE FILES
-    "/home/ishaani/ros2_ws/build/night_patrol_world/ament_cmake_core/night_patrol_worldConfig.cmake"
-    "/home/ishaani/ros2_ws/build/night_patrol_world/ament_cmake_core/night_patrol_worldConfig-version.cmake"
-    )
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/night_patrol_world" TYPE FILE FILES "/home/ishaani/ros2_ws/src/night_patrol_world/package.xml")
+  include("/mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_world/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -117,5 +62,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ishaani/ros2_ws/build/night_patrol_world/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_world/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

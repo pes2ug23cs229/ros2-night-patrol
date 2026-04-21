@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ishaani/ros2_ws/src/night_patrol_world
+CMAKE_SOURCE_DIR = /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/src/night_patrol_world
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ishaani/ros2_ws/build/night_patrol_world
+CMAKE_BINARY_DIR = /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_world
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/ishaani/ros2_ws/build/night_patrol_world && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ishaani/ros2_ws/src/night_patrol_world /home/ishaani/ros2_ws/src/night_patrol_world /home/ishaani/ros2_ws/build/night_patrol_world /home/ishaani/ros2_ws/build/night_patrol_world /home/ishaani/ros2_ws/build/night_patrol_world/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_world && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/src/night_patrol_world /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/src/night_patrol_world /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_world /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_world /mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_world/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

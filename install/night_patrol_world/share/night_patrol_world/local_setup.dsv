@@ -1,2 +1,1 @@
-source;share/night_patrol_world/environment/ament_prefix_path.sh
-source;share/night_patrol_world/environment/path.sh
+/mnt/c/Users/LENOVO/OneDrive/Desktop/ros2_ws/build/night_patrol_world/ament_cmake_environment_hooks/local_setup.dsv
